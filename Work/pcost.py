@@ -28,6 +28,7 @@ def portfolio_cost(filename):
 
     return total_cost
 
+
 # If calling this script from command line, then expect 1st argument to be name of Portfolio csv file.
 # If no arguments are provided then assume file is 'Work\\Data\\Portfolio.csv'
 if len(sys.argv) == 2:
